@@ -13,7 +13,7 @@ class Player {
         this.DOM.innerHTML=` <div class="game-area">
         <div class="score-table">
             <div class="logo">
-                <img src="/images/logo.svg" alt="gmae-logo">
+                <img src="./images/logo.svg" alt="gmae-logo">
             </div>
             <div class="score-count">
                 <span>Score:</span>${this.winCount}
