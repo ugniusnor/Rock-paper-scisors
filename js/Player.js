@@ -55,7 +55,6 @@ class Player {
       }
     }
     decideWinner () {
-        const pointsBox=document.querySelector(".score-count")
         const resetBtn=document.querySelector(".reset-button")
         resetBtn.style.display="block";
         if ( this.value==this.randomNumber ) {
@@ -74,7 +73,6 @@ class Player {
             localStorage.setItem("winCount",this.winCount)
         }
         resetBtn.addEventListener('click',()=>{
-
             startGame();
         })
     }
