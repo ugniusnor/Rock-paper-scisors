@@ -9,7 +9,7 @@ startBtn.addEventListener('click',()=>{
         <div class="game-area">
         <div class="score-table">
             <div class="logo">
-                <img src="/images/logo.svg" alt="gmae-logo">
+                <img src="./images/logo.svg" alt="gmae-logo">
             </div>
             <div class="score-count">
                 <span>Score:</span>${localStorage.getItem("winCount")}
